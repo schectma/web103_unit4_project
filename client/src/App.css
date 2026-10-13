@@ -10,20 +10,3 @@
     overflow-x: hidden;
     padding-bottom: 50px;
 }
-
-.page-message {
-    margin: 30px 50px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-}
-
-.page-actions {
-    display: flex;
-    justify-content: flex-end;
-    margin: -20px 50px 0;
-}
-
-#root .delete-button {
-    background-color: #5c0a0a;
-}
