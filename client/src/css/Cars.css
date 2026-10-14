@@ -1,0 +1,42 @@
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    margin: 30px 50px;
+}
+
+#root .car-card {
+    margin: 0;
+}
+
+.car-summary {
+    margin: 10px 0;
+    padding-left: 0;
+}
+
+#root .car-summary li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.summary-price {
+    opacity: 0.75;
+    text-transform: none;
+}
+
+.card-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#root .car-details {
+    margin: 30px 50px;
+}
+
+.car-details-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
